@@ -14,7 +14,7 @@ redirect_uri = "https://github.com/furyforev3r"
 scope = "user-read-currently-playing"
 
 
-class SpotifyMusicChecker:
+class SpotifyNowPlaying:
     def __init__(self):
         self.last_music = ""
         self.sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
@@ -54,5 +54,5 @@ class SpotifyMusicChecker:
 
 
 if __name__ == "__main__":
-    spotify_checker = SpotifyMusicChecker()
+    spotify_checker = SpotifyNowPlaying()
     spotify_checker.run()
