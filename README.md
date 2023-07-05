@@ -1,6 +1,6 @@
 ![Spotify](https://github.com/Furyforev3r/Spotify-Music-Checker/assets/88341564/b35e61f5-fa82-4d3d-858c-88928562c8a2)
 # 🎵 | Spotify-Now-Playing
-**This program checks and show current music you are listening to on spotify! (Is a test for future projects)**
+**This program checks and displays the current music you are listening to on Spotify! (It is a test for future projects)**
 # 📥 | Installation
 **Clone the repository (or download manually):**
 ```bash
