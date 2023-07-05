@@ -36,7 +36,10 @@ class SpotifyMusicChecker:
                     self.last_music = current_music
                     return f"You are listening: {current_music}"
             else:
-                return "No music currently playing."
+                nmcpMessage = "No music currently playing."
+                if nmcpMessage != self.last_music:
+                    self.last_music = nmcpMessage
+                    return nmcpMessage
 
         except spotipy.SpotifyException as e:
             return f"An error occurred: {str(e)}"
