@@ -4,7 +4,7 @@
 # 📥 | Installation
 **Clone the repository (or download manually):**
 ```bash
-git clone https://github.com/Furyforev3r/Spotify-Music-Checke.git
+git clone https://github.com/Furyforev3r/Spotify-Now-Playing.git
 ```
 ## 📁 | Requirements
 + **Python/Pip (and dependencies)**
